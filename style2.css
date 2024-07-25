@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    list-style: none;
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+a {
+    text-decoration: none;
+    color: #555;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.header {
+    background:radial-gradient(#fff,#ffd6d6);
+}
+.contact-section, .login-section, .about-section {
+    padding: 50px 0;
+}
+.contact-section .title, .login-section .title, .about-section .title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-form, .login-form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
+.contact-form input, .login-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.contact-form textarea {
+    resize: none;
+}
+.contact-form button, .login-form button {
+    background: #ff523b;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.5s;
+    width: 100%;
+}
+.contact-form button:hover, .login-form button:hover {
+    background: #563434;
+}
+.about-section .col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.about-section .col-2 img {
+    max-width: 100%;
+}
+.about-section .col-2 h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-section .col-2 p {
+    margin-bottom: 20px;
+}
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p {
+    color: #8a8a8a;
+}
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3 ul, .footer-col-4 ul {
+    list-style-type: none;
+}
+.footer .applogo img {
+    width: 140px;
+}
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px auto;
+}
+.copyright {
+    text-align: center;
+}
